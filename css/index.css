@@ -445,6 +445,13 @@ canvas:not(#ribbon-canvas),
   -ms-animation: scroll-down-effect 1.5s infinite;
   animation: scroll-down-effect 1.5s infinite;
 }
+.avatar-img {
+  -webkit-animation: avatar_turn_around 2s linear infinite;
+  -moz-animation: avatar_turn_around 2s linear infinite;
+  -o-animation: avatar_turn_around 2s linear infinite;
+  -ms-animation: avatar_turn_around 2s linear infinite;
+  animation: avatar_turn_around 2s linear infinite;
+}
 .reward-main {
   -webkit-animation: donate_effcet 0.3s 0.1s ease both;
   -moz-animation: donate_effcet 0.3s 0.1s ease both;
@@ -5990,7 +5997,7 @@ blockquote.pullquote.right {
   margin-top: -20px;
 }
 [data-theme='dark'] {
-  --a-no-hover: #b5a;
+  --a-no-hover: #8e8cd8;
   --global-bg: #100e17;
   --main-color: #bb86fc;
   --dark-text-color: #000;
@@ -6002,7 +6009,7 @@ blockquote.pullquote.right {
   --search-a-color: rgba(255,255,255,0.7);
   --preloader-bg: #0d0d0d;
   --preloader-color: rgba(255,255,255,0.7);
-  --tab-border-color: #2c2c2c;
+  --tab-border-color: rgba(142,140,216,0.5);
   --tab-botton-bg: #2c2c2c;
   --tab-botton-color: rgba(255,255,255,0.7);
   --tab-button-hover-bg: #383838;
@@ -6024,7 +6031,7 @@ blockquote.pullquote.right {
   --scrollbar-color: --global-bg;
   --timeline-bg: #1f1f1f;
   --zoom-bg: #121212;
-  --mark-bg: rgba(0,0,0,0.6);
+  --mark-bg: rgba(0,0,0,0.7);
 }
 [data-theme='dark'] #web_bg:before {
   position: absolute;

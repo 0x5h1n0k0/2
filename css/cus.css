@@ -366,6 +366,20 @@ a.post-meta__tags:hover {
     content: "" !important;
 }
 
+.thm-h2-learning-path-access{
+    font-size: 15px !important;
+    margin: 0px !important;
+    padding-left: 0px !important;
+    /* position: absolute; */
+    display: inline-block;
+    text-align: left; /* Căn từ trái qua */
+    position: relative;
+    background: transparent !important;
+}
+
+.thm-h2-learning-path-access::before{
+    content: "" !important;
+}
 
 a{
     color: var(--a-no-hover);
@@ -448,8 +462,13 @@ mark.hl-label.main{
 p.text-input {
     background: #1f1f1f;
     border-radius: 3px;
-    padding-left: 10px;
+    padding-left: 15px !important;
+    padding: 5px;
     color: var(--font-color);
+}
+
+.hide-inline > .hide-button, .hide-block > .hide-button{
+    padding: 10px !important;
 }
 
 .note.thm-learn-note:not(.no-icon)::before {
@@ -494,4 +513,80 @@ p.text-input {
     font-size: 12px;
     margin-top: -4px !important;
     line-height: initial;
+}
+
+.path-section-img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 18px;
+}
+
+
+a.page-number:hover {
+    color: #000 !important;
+    background: #bb86fc !important;
+    border-radius: 5px;
+}
+
+a.extend.next:hover{
+    color: #000 !important;
+    background: #bb86fc !important;
+    border-radius: 5px;
+}
+
+a.extend.prev:hover{
+    color: #000 !important;
+    background: #bb86fc !important;
+    border-radius: 5px;
+}
+
+button.hbe-button:hover {
+    color: #bb86fc !important;
+    zoom: revert;
+}
+
+h1#site-title {
+    text-transform: uppercase;
+}
+
+.fa-bars-staggered:before, .fa-reorder:before, .fa-stream:before {
+    content: "\f02e";
+}
+
+#article-container .tabs > .nav-tabs > .tab{
+    background: rgba(142, 140, 216,0.5);
+    color: #000;
+}
+
+button.tab:hover {
+    background: rgba(142, 140, 216,0.1) !important;
+}
+
+#article-container .tabs > .nav-tabs > .tab.active {
+    background: #8e8cd8;
+    cursor: default;
+}
+
+#article-container .tabs {
+    position: relative;
+    margin: 0 0 20px;
+    border-right: 1px solid var(--tab-border-color);
+    border-bottom: 1px solid var(--tab-border-color);
+    border-left: 1px solid var(--tab-border-color);
+}
+
+.room-image {
+    border-radius: 5px;
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+#article-container img{
+    vertical-align: middle;
 }
