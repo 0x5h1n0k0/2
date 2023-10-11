@@ -469,6 +469,7 @@ p.text-input {
 
 .hide-inline > .hide-button, .hide-block > .hide-button{
     padding: 10px !important;
+    border-radius: 5px;
 }
 
 .note.thm-learn-note:not(.no-icon)::before {
@@ -589,4 +590,62 @@ button.tab:hover {
 
 #article-container img{
     vertical-align: middle;
+}
+
+.note.green.icon-padding.flat:hover {
+    animation: horizontal 2s ease infinite;
+}
+
+.note.purple.icon-padding.flat:hover {
+    animation: horizontal 2s ease infinite;
+}
+
+details.folding-tag[thm] >summary{
+    background: #212c42;
+    color: var(--font-color)
+}
+
+details.folding-tag[thm] >summary:hover{
+    color: #bb86fc
+}
+
+[data-theme="dark"] details[open][thm] > div.content{
+    background: var(--global-bg) !important;
+}
+
+details.folding-tag[open][thm] >summary{
+    color: var(--font-color) !important
+}
+
+details.folding-tag[open][thm] >summary:hover{
+    color: #bb86fc !important
+}
+
+[data-theme="dark"] details[open][thm] > div.content{
+    border-radius: 5px !important;
+    margin-top: -4px !important;
+}
+
+#article-container.post-content h1:before, #article-container.post-content h2:before, #article-container.post-content h3:before, #article-container.post-content h4:before, #article-container.post-content h5:before, #article-container.post-content h6:before{
+    content: '\f591';
+}
+
+[class*=hint--][data-hint]:after {
+    content: attr(data-hint);
+    background: #8e8cd8 !important;
+    color: #000;
+    text-align: justify;
+    font-weight: bold;
+    width: 500px !important;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+
+[class*=hint--] {
+    border-bottom: 1px solid #8e8cd8 !important;
+}
+
+.hint--info.hint--top:before {
+    border-top-color: #8e8cd8 !important;
 }
