@@ -549,53 +549,53 @@ function categoriesRadar () {
 })
 
 
-hexo.extend.helper.register('categories_pic', function (options) {
-    const { id, title, seriesName } = options
-    // id  必须指定
-    if (!id) return
-    const categoryArr = []
-    hexo.locals.get('categories').map(function (category) {
-        categoryArr.push({ name: category.name, value: category.length })
-    })
-    return `
-    <script type="text/javascript" id="${id}">
-    var themeMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
-    var categoriesChart = echarts.init(document.getElementById("${id}"),themeMode);
-    // 指定图表的配置项和数据
-    var categoriesOption = {
-        backgroundColor:'',
-        title:{
-            text:'${title}',
-            x:'center'
-        },
-        tooltip:{
-            formatter: "{a} <br/>{b} : {c} ({d}%)"
-        },
-        legend: {
-            icon: "circle",
-            top: 'bottom'
-        },
-        series: [
-            {
-            name: '${seriesName}',
-            type: 'pie',
-            radius: [40, 150],
-            center: ['50%', '48%'],
-            roseType: 'area',
-            itemStyle: {
-                borderRadius: 8
-            },
-            label: {
-                formatter: "{b} : {c} ({d}%)"
-            },
-            data: ${JSON.stringify(categoryArr)}
-            }
-        ]
-        };
-    // 使用刚指定的配置项和数据显示图表。
-    categoriesChart.setOption(categoriesOption);
-    window.addEventListener("resize", () => {
-        categoriesChart.resize();
-    });
-    </script>`
-})
+// hexo.extend.helper.register('categories_pic', function (options) {
+//     const { id, title, seriesName } = options
+//     // id  必须指定
+//     if (!id) return
+//     const categoryArr = []
+//     hexo.locals.get('categories').map(function (category) {
+//         categoryArr.push({ name: category.name, value: category.length })
+//     })
+//     return `
+//     <script type="text/javascript" id="${id}">
+//     var themeMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+//     var categoriesChart = echarts.init(document.getElementById("${id}"),themeMode);
+//     // 指定图表的配置项和数据
+//     var categoriesOption = {
+//         backgroundColor:'',
+//         title:{
+//             text:'${title}',
+//             x:'center'
+//         },
+//         tooltip:{
+//             formatter: "{a} <br/>{b} : {c} ({d}%)"
+//         },
+//         legend: {
+//             icon: "circle",
+//             top: 'bottom'
+//         },
+//         series: [
+//             {
+//             name: '${seriesName}',
+//             type: 'pie',
+//             radius: [40, 150],
+//             center: ['50%', '48%'],
+//             roseType: 'area',
+//             itemStyle: {
+//                 borderRadius: 8
+//             },
+//             label: {
+//                 formatter: "{b} : {c} ({d}%)"
+//             },
+//             data: ${JSON.stringify(categoryArr)}
+//             }
+//         ]
+//         };
+//     // 使用刚指定的配置项和数据显示图表。
+//     categoriesChart.setOption(categoriesOption);
+//     window.addEventListener("resize", () => {
+//         categoriesChart.resize();
+//     });
+//     </script>`
+// })
