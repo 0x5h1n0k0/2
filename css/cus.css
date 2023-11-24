@@ -713,3 +713,7 @@ h1 {
 #article-container div a:hover {
     color: #bb86fc !important;
 }
+
+.post-meta-date{
+    display: none !important;
+}
